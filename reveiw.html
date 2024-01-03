@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <title>Quiz</title>
+    <style>
+ 
+    </style>
+</head>
+<body>
+    <h2>Quiz</h2>
+    <form action="#" method="post" id="quizForm">
+        <table>
+            <thead>
+                <tr>
+                    <th>Question</th>
+                    <th>Options</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td> are you feeling okay</td>
+                    <td>
+                        <label><input type="radio" name="q1" value="a"> true</label>
+                        <label><input type="radio" name="q1" value="b"> false</label>
+                        
+                    </td>
+                </tr>
+                <tr>
+                    <td>do you like my app</td>
+                    <td>
+                        <label><input type="radio" name="q2" value="a"> true</label>
+                        <label><input type="radio" name="q2" value="b"> false</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>your name is Ahmed</td>
+                    <td>
+                        <label><input type="radio" name="q3" value="a">true</label>
+                        <label><input type="radio" name="q3" value="b">false</label>
+                    </td>
+                </tr>
+                
+            </tbody>
+        </table>
+        <input type="button" onclick="calculateScore()" value="Submit" id="submit">
+       
+    </form>
+    <script src="script2.js">
+      
+    </script>
+</body>
+</html>

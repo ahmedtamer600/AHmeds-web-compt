@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+    font-size: x-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 600;
+
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: lightgray;
+    padding: 10px;
+    font-size: xx-large;
+    font-weight: 700;
+    width: auto;
+    margin: 5px;
+
+}
+.nav button {
+    border-color: transparent;
+    background-color: transparent;
+
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    background-color: lightslategray;
+    color: white;
+     width:auto;
+    transition: all 500ms;
+overflow-x: hidden;    
+}
+
+.frst {
+    display: flex;
+    flex-direction: column;
+    width: 750px;
+    border: 3px solid black;
+    margin: 20px;
+
+}
+
+.item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    
+}   
+img{
+    width: 350px;
+    height: 300px;
+}
+.buybtn{
+    background-color: lightgreen;
+    padding: 8px;
+    color: white;
+    border-radius: 6px;
+}
+.footer
+{
+    display: flex;
+    flex-direction: row;
+    background-color: lightblue;
+    justify-content: center;
+
+
+}
+.footer .branch{
+    margin: 15px;
+    padding: 80px;
+}
+.summary{
+    display: flex;
+  flex-direction: column;
+  justify-content: left;
+  border: 3px solid black;
+  width: 350px;
+  margin: 10px;
+  height: 600px;
+  
+}
+p{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.hide{
+    opacity:0;
+}
+.btn{
+    background-color: black;
+    color: white;
+    padding: 6px;
+    border-radius: 20px;
+    align-items: center;
+    text-align: center;
+}
